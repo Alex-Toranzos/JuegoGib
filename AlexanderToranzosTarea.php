@@ -7,8 +7,8 @@ echo "public class NombreClase {
         // programa o codigo
     }
 }"
-echo""
-
+echo"estructuras repetitivas"
+echo ""
 
 
 
