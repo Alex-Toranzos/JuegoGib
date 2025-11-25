@@ -37,15 +37,10 @@ La POO incluye el principio de encapsulación, que consiste en proteger los atri
 echo "herencia en java";
 echo "En Java, la herencia permite que una clase hija reutilice los atributos y métodos definidos en una clase padre, lo que facilita la reutilización del código y la organización del programa. Para indicar que una clase hereda de otra se utiliza la palabra clave extends, que establece la relación entre la superclase (padre) y la subclase (hija). Una subclase puede modificar el comportamiento de un método heredado mediante la sobrescritura usando la anotación @Override, permitiendo personalizar las acciones según las necesidades de la clase hija. Además, Java proporciona la palabra clave super, que se utiliza para acceder a métodos o atributos de la clase padre, o para llamar al constructor de la superclase cuando es necesario inicializar datos heredados. Gracias a estos mecanismos, la herencia permite crear estructuras más limpias, reutilizables y fáciles de mantener dentro de la Programación Orientada a Objetos.
 Sirve:
-
 Reutilizar código: no necesitas volver a escribir lo que ya existe en la clase padre.
-
 Organizar mejor el código: permite crear jerarquías lógicas (por ejemplo, Animal → Perro).
-
 Extender funcionalidades: la subclase puede agregar nuevos métodos o sobrescribir métodos del padre.
-
 Esta la manera de hacer con extends en le codigo java
-
 class Animal {
     void hacerSonido() {
         System.out.println(Sonido genérico...);
@@ -61,65 +56,35 @@ class Perro extends Animal {
 
     echo "Archivo sobre crude";
 echo "Conexión a la base de datos
-
 Para trabajar con una página web y su base de datos, es fundamental que cada entidad del sistema funcione correctamente y esté conectada. Primero, necesitamos una base de datos existente, ya que sin ella no hay conexión posible. Además, la base de datos debe ser accesible desde la máquina cliente.
-
 Para entornos locales se utiliza XAMPP, que convierte nuestra máquina en un servidor local e incluye:
-
 Apache: servidor web que ejecuta archivos .php y permite que los usuarios accedan a nuestra aplicación.
-
 MySQL: sistema de gestión de bases de datos que permite almacenar y consultar información.
-
 Para establecer la conexión se requieren cuatro parámetros esenciales:
-
 Nombre de la base de datos: debe coincidir exactamente con mayúsculas, minúsculas y caracteres especiales.
-
 Dirección del servidor: normalmente localhost en entornos locales.
-
 Usuario: por defecto root.
-
 Contraseña: por defecto vacía :
-
 Si la conexión falla, se muestra un error; si funciona correctamente, ya podemos ejecutar consultas SQL.
-
 CREATE (Registrar datos)
-
 Se crea un formulario en PHP (formRegistroProducto.php) para recoger datos del usuario.
-
 Un archivo receptor (registroProducto.php) recibe la información con $_POST.
-
 Se establece la conexión a la base de datos con mysqli y se ejecuta la consulta SQL usando query.
-
 Se confirma si el registro fue exitoso o se muestra un error.
-
 READ (Mostrar datos)
-
 Se puede mostrar toda la tabla o un solo elemento.
-
 Para mostrar todos los registros:
-
 Se realiza una consulta SQL y se guarda el resultado en una variable ($resultado).
-
 Se recorre con un bucle while, asignando cada fila a una variable $fila para acceder a sus atributos ($fila[atributo]).
-
 Para mostrar un solo registro:
-
 Se necesita un parámetro, generalmente el id.
-
 Este parámetro se puede enviar mediante GET ($_GET) en la URL.
-
 Se hace una consulta con condición para obtener solo ese registro.
-
 UPDATE (Editar datos)
-
 Para modificar información es necesario identificar qué registro editar, generalmente mediante su id.
-
 Se recupera la información del registro y se muestra en un formulario de edición.
-
 El usuario modifica los datos y se envía el formulario para actualizar la base de datos.
-
 La consulta SQL usada es UPDATE, diferente de INSERT.
-
 Datos sensibles, como id, pueden colocarse en campos ocultos (hidden) para protegerlos.";
 
 ?>
