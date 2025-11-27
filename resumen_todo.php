@@ -11,19 +11,19 @@ echo"estructuras repetitivas";
 echo "En Java, las estructuras repetitivas (o bucles) permiten ejecutar un bloque de código varias veces de forma automática. Son esenciales cuando necesitas repetir acciones sin escribir código repetido. Los bucles principales son: while, do-while, for y for-each.
 El bucle while ejecuta su contenido mientras la condición sea verdadera. La condición se evalúa antes de entrar al bucle, por lo tanto, puede no ejecutarse nunca. Se usa cuando no sabes cuántas repeticiones habrá, pero la condición lo controla.
 Ejemplo:
-while (condición) { ... }
+while (condición) { d }
 
 El bucle do-while funciona igual que while, pero su característica principal es que siempre se ejecuta al menos una vez, ya que la condición se evalúa al final. Es útil cuando necesitas que el código se ejecute una vez antes de decidir si se repite.
 Ejemplo:
-do { ... } while (condición);
+do { a } while (condición);
 
 El bucle for tradicional se utiliza cuando sabes de antemano cuántas veces quieres repetir algo. Tiene tres partes: inicialización, condición y actualización del contador. Es el bucle más común cuando se trabaja con números o posiciones.
 Ejemplo:
-for (int i = 0; i < n; i++) { ... }
+for (int i = 0; i < n; i++) { b }
 
 El bucle for-each (o enhanced for) se usa para recorrer elementos de un arreglo o colección sin manejar índices manualmente. Es más simple pero no permite modificar el índice ni recorrer hacia atrás.
 Ejemplo:
-for (Tipo elemento : colección) { ... }
+for (Tipo elemento : colección) { x}
 
 Dentro de los bucles se pueden usar dos palabras clave importantes: break, que detiene completamente el bucle y sale de él, y continue, que salta la iteración actual y pasa a la siguiente. Ambos permiten controlar el flujo dentro del bucle.
 Finalmente, es importante evitar los bucles infinitos, que ocurren cuando la condición nunca se vuelve falsa, lo que puede congelar el programa. Para evitarlos, siempre asegúrate de que la condición cambie en algún momento.";
