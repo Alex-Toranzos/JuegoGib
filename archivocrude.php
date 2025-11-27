@@ -3,18 +3,26 @@ echo "Vargas: que es crud?";
 echo "R";
 
 echo "Julian: como y cuando se usa crud";
-echo ""r;
+echo "R";
 
 echo "Edson:Cual es la traduccion de sus iniciales y desde que año esta crud";
-echo "R";
+echo "Create → Crear
+Read → Leer
+Update → Actualizar
+Delete → Borrar / Eliminar
+Desde que año esta crud?:
+El concepto CRUD se popularizó a finales de los años 80 e inicios de los 90, cuando comenzó a usarse en modelos
+de bases de datos relacionales y en el desarrollo de software orientado a datos.
+La primera referencia clara y extendida del acrónimo aparece en documentación técnica alrededor de 1983–1989, aunque
+el concepto (las cuatro operaciones básicas) existía desde mucho antes, prácticamente desde los inicios de las bases de datos.";
 
 echo "Nemecio: importancia de crud";
 echo"R";
 
 echo "Alex:de que formas se usan crud";
 
-echo "CRUD es un concepto abstracto que describe las funciones esenciales de la gestión de datos, no un conjunto de implementaciones físicas. Por lo tanto, las "formas" en que se usa se refieren a las capas tecnológicas y las interfaces donde se aplica este concepto. 
-Si bien las formas principales ya fueron cubiertas (SQL, APIs, ORMs, GUIs), no existe una lista finita y exhaustiva de "todas las formas posibles", ya que los métodos de programación evolucionan constantemente. 
+echo "CRUD es un concepto abstracto que describe las funciones esenciales de la gestión de datos, no un conjunto de implementaciones físicas. Por lo tanto, las formas en que se usa se refieren a las capas tecnológicas y las interfaces donde se aplica este concepto. 
+Si bien las formas principales ya fueron cubiertas (SQL, APIs, ORMs, GUIs), no existe una lista finita y exhaustiva de todas las formas posibles, ya que los métodos de programación evolucionan constantemente. 
 Sin embargo, podemos categorizarlas de manera inclusiva para cubrir todos los contextos relevantes:
 Categorización Exhaustiva de las Formas de Usar CRUD:
 1. Implementación a Nivel de Base de Datos (Acceso Directo)
@@ -33,9 +41,9 @@ APIs GraphQL: Un lenguaje de consulta para APIs que utiliza operaciones específ
 APIs basadas en RPC (Remote Procedure Call): Modelos más antiguos (como SOAP) que usan funciones o procedimientos remotos para realizar las operaciones. 
 4. Implementación a Nivel de Interfaz de Usuario (Experiencia de Usuario)
 La forma en que el usuario final interactúa con los datos sin saber que está utilizando CRUD.
-Interfaces Web/GUIs: Formularios, tablas de datos, botones de "Guardar", "Editar", "Eliminar" en aplicaciones web, de escritorio o móviles.
+Interfaces Web/GUIs: Formularios, tablas de datos, botones de Guardar, Editar, Eliminar en aplicaciones web, de escritorio o móviles.
 Herramientas de Scaffolding y CMS: Paneles de administración pre-construidos (como WordPress o Django Admin) que generan automáticamente interfaces CRUD para gestionar contenido.
 Interfaces de Línea de Comandos (CLI): Herramientas de terminal que gestionan archivos, usuarios del sistema o recursos en la nube a través de comandos como create-user o delete-file. 
-Es seguro decir que cualquier método de interacción con datos persistentes se reduce a una de estas formas de implementación de CRUD.
+Es seguro decir que cualquier método de interacción con datos persistentes se reduce a una de estas formas de implementación de CRUD. 
 ";
 ?>
